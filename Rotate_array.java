@@ -2,8 +2,12 @@ import java.util.*;
 public class Rotate_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int arr[] = {1,2,3,4,5};
-        int n = arr.length;
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        for(int i = 0 ; i<n ;i++){
+            arr[i] = sc.nextInt();
+        }
+
         System.out.println("Enter a val how many time you want to rotate");
         int val = sc.nextInt();
        
@@ -23,4 +27,5 @@ public class Rotate_array {
           }
         
     }
+  
 }
