@@ -7,7 +7,7 @@ public class Frequency {
             for(int i = 0 ; i<n ;i++){
                 arr[i] = sc.nextInt();
             }
-      // creating a dummy array to store frequency of array
+      // creating a dummy array named as frequency;
 
       int []frequency = new int[n];
       int visited = -1;
